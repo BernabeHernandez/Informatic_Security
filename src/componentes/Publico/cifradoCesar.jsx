@@ -53,7 +53,7 @@ const CifradoCesar = () => {
 
   // Navegar a la documentación
   const verMas = () => {
-    navigate('/admin/documentacion'); // Reemplaza '/documentacion' con la ruta de tu componente de documentación
+    navigate('/documentacion'); // Reemplaza '/documentacion' con la ruta de tu componente de documentación
   };
 
   // Estilos mejorados para el diseño

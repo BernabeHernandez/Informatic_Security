@@ -72,7 +72,7 @@ const CifradoEscitala = () => {
   };
 
   const verMas = () => {
-    navigate('/admin/documentacion'); // Navega a la documentación
+    navigate('/documentacion'); // Navega a la documentación
   };
 
   // Estilos mejorados para el diseño responsivo
