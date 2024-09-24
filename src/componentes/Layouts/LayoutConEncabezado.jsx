@@ -9,7 +9,7 @@ const LayoutConEncabezado = ({ children }) => {
   let encabezado;
   let pieDePagina;
 
-  if (location.pathname.startsWith('/admin')) {
+  if (location.pathname.startsWith('/')) {
     encabezado = <EncabezadoAdministrativo />;
     pieDePagina=<PieDePaginaCliente/>;
   } 

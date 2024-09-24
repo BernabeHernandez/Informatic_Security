@@ -16,16 +16,16 @@ const EncabezadoAdministrativo = () => {
   const handleMenuClick = (e) => {
     switch (e.key) {
       case "1":
-        navigate('/admin/cifrado');
+        navigate('/CifradoCesar');
         break;
       case "2":
-        navigate('/admin/escitala');
+        navigate('/CifradoEscitala');
         break;
       case "3":
-        navigate('/admin/documentacion');
+        navigate('/documentacion');
         break;
       case "4":
-        navigate('/admin/originalidad');
+        navigate('/originalidad');
         break;
       default:
         console.log("No se reconoce la acción del menú");
