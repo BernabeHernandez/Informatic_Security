@@ -85,7 +85,7 @@ const PieDePaginaCliente = () => {
           </Menu>
         </div>  
         <div>
-          <Text style={{ color: '#fff' }}>© {new Date().getFullYear()} Bernabe HB. Todos los derechos reservados.</Text>
+          <Text style={{ color: '#fff' }}>© {new Date().getFullYear()} Bernabe Hernandez Bautista</Text>
         </div>
       </Footer>
     </Layout>
